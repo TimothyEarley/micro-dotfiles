@@ -1,0 +1,8 @@
+{
+	"CtrlA":		"StartOfLine",
+	"CtrlE":		"EndOfLine",
+	"CtrlO":		"Save",
+	"CtrlW":		"Quit",
+	"CtrlX":		"Quit",
+	"CtrlR":	"CommandMode",
+}

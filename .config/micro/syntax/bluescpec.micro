@@ -1,0 +1,18 @@
+syntax "bluespec" "\.bsv$"
+color identifier "\b[A-Z][A-Za-z0-9_]*\b"
+
+color type "\b(bit|int|Reg|FIFO|FIFOF)\b"
+color type "\b(import)\b"
+color type "\b(Action|ActionValue)\b"
+
+color statement "\b(end)?(package|interface|method|module|rule)\b"
+color statement "\b(else|if|return)\b"
+color statement "[-+/*=<>!~%?:&|]"
+
+color special "\b\$(display|finish)\b"
+
+color constant "\b(True|False)\b"
+color constant.number "\b[0-9]+\b"
+color constant.string ""[^"]*""
+
+color comment "//.*"
